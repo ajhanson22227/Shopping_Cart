@@ -1,0 +1,11 @@
+.nav-bar, .nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nav-item, .nav-cart{
+    margin-left: 3em;
+}
