@@ -1,0 +1,29 @@
+.item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-card-container{
+    margin: 1em;
+}
+.item-card-image img{
+    width: 10em;
+    height: 10em;
+}
+
+.item-card-image,
+.item-card-image img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.item-card-name{
+    text-align: center;
+}
+
+.item-card-image, .item-card-name{
+    background-color: #dcdcdc
+}
