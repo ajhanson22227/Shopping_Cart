@@ -14,8 +14,8 @@ const NavBar = (props) => {
                     <Link to='/Store'>Store</Link>
                 </li>
             </ul>
-
-            <h3 className="nav-cart">{props.items.length} items in the cart</h3>
+            <Link to='/Cart'><h3 className="nav-cart">{props.items} items in the cart</h3></Link>
+            
         </div>
     )
 }
